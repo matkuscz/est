@@ -4,7 +4,7 @@
     <list default="true" id="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" name="Default" comment="" />
     <ignored path="eSeoTool.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/eSeoTool.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1382833905443" ignored="false" />
+    <file path="/eSeoTool.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1382878835396" ignored="false" />
     <file path="/analyzaKlicovychSlov" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1382262648085" ignored="false" />
     <file path="/page.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1382267646849" ignored="false" />
     <file path="/temp.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1382828910774" ignored="false" />
@@ -13,7 +13,7 @@
     <file path="/analyzaKlicovychSlov.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1382820050920" ignored="false" />
     <file path="/LinksWordsCount.html" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1382825853199" ignored="false" />
     <file path="/sSeoKeywordAnalyze.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1382829457978" ignored="false" />
-    <file path="/eSeoKeywordAnalyze.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1382831245613" ignored="false" />
+    <file path="/eSeoKeywordAnalyze.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1382881226771" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,40 +33,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="eSeoTool.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="eSeoTool.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/eSeoTool.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="21" selection-start="47" selection-end="210" vertical-scroll-proportion="0.0">
+            <state line="30" column="0" selection-start="701" selection-end="701" vertical-scroll-proportion="0.76386404">
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="3" selection-start="31" selection-end="31" vertical-scroll-proportion="0.09966025">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LICENSE" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LICENSE">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="64" selection-start="1209" selection-end="1209" vertical-scroll-proportion="-20.24">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Page.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Page.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="2" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
+            <state line="5" column="20" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -75,7 +54,7 @@
       <file leaf-file-name="eSeoKeywordAnalyze.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eSeoKeywordAnalyze.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="102" vertical-scroll-proportion="0.0">
+            <state line="21" column="0" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -99,10 +78,10 @@
         <option value="$PROJECT_DIR$/generatedHtml/LinksWordsCount.html" />
         <option value="$PROJECT_DIR$/generatedHtml/tempLinksWordsCount.html" />
         <option value="$PROJECT_DIR$/sSeoKeywordAnalyze.rb" />
-        <option value="$PROJECT_DIR$/eSeoKeywordAnalyze.rb" />
-        <option value="$PROJECT_DIR$/eSeoTool.rb" />
         <option value="$PROJECT_DIR$/Page.rb" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/eSeoTool.rb" />
+        <option value="$PROJECT_DIR$/eSeoKeywordAnalyze.rb" />
       </list>
     </option>
   </component>
@@ -138,7 +117,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -173,6 +151,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -316,8 +295,8 @@
       <method />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.Page" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.eSeoTool" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.eSeoTool" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.Page" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -362,11 +341,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930845" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13767342" sideWeight="0.6421515" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39846322" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13927428" sideWeight="0.64356434" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39823982" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3576017" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35643566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -436,7 +415,19 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/eSeoKeywordAnalyze.rb</url>
+          <line>17</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/eSeoKeywordAnalyze.rb</url>
+          <line>18</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -488,59 +479,49 @@
     </entry>
     <entry file="file://C:/Ruby193/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.87202716">
-          <folding />
-        </state>
+        <state line="35" column="0" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.87202716" />
       </provider>
     </entry>
     <entry file="file://C:/wamp/www/seoTest/machacek.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="2969" selection-end="2969" vertical-scroll-proportion="1.5995232">
-          <folding />
-        </state>
+        <state line="61" column="0" selection-start="2969" selection-end="2969" vertical-scroll-proportion="1.5995232" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/generatedHtml/LinksWordsCount.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0">
+        <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="3" selection-start="31" selection-end="31" vertical-scroll-proportion="0.09966025" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="64" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.5897436" />
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="20" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eSeoKeywordAnalyze.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="102" vertical-scroll-proportion="0.0">
+        <state line="21" column="0" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Page.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="2" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="64" selection-start="1209" selection-end="1209" vertical-scroll-proportion="-20.24">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eSeoTool.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="21" selection-start="47" selection-end="210" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="3" selection-start="31" selection-end="31" vertical-scroll-proportion="0.09966025">
+        <state line="30" column="0" selection-start="701" selection-end="701" vertical-scroll-proportion="0.76386404">
           <folding />
         </state>
       </provider>

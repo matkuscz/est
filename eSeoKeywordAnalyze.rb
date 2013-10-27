@@ -16,6 +16,9 @@ class ESeoKeywordAnalyze
 
   def getKeywordCount linkTexts
     linkTexts.each { |linkText| @link_word_count.store(linkText, @link_word_count[linkText] + 1) }
+
+    tmp = @link_word_count.sort_by { |key,value| value }
+    @link_word_count = tmp.reverse
   end
 
   def getLinkWordCount
