@@ -1,3 +1,7 @@
+# Page.rb
+=begin
+
+=end
 class Page
   attr_reader :linkWordCount
 
