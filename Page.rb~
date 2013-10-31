@@ -15,15 +15,9 @@ class Page
 
     @linksText = Array.new
 
-
     generateLinks
     preformatLinkText
     generateLinkWordCount
-
-
-    @headers = Array.new
-    generateHeaders
-
   end
 
   def getHtml
@@ -70,16 +64,4 @@ class Page
   def analyzeKeywords
     puts "Analyze Keywords"
   end
-
-  def generateHeaders
-      puts ">generate links"
-      @html.css('h1').each { |h1| header = h1.text
-      header.to_s
-      header.strip!
-      @headers.push(header) unless header == ""
-      }
-  end
-
-
-
 end

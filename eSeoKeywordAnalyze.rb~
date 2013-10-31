@@ -8,12 +8,10 @@ require 'builder'
 class ESeoKeywordAnalyze
 
 
-  def initialize linkTexts headersTexts
-    @headerWordCount = Hash::new(0)	  
+  def initialize linkTexts
     @link_word_count = Hash::new(0)
     @html = ""
     getKeywordCount linkTexts
-    getHeadersCount headersTexts
   end
 
   def getKeywordCount linkTexts
@@ -26,14 +24,6 @@ class ESeoKeywordAnalyze
   def getLinkWordCount
     return @link_word_count
   end
-
-  def getHeadersCount headersTexts
-    headersTexts.each { |headerText| @headerWordCount.store(headerText, @headerWordCount[headerText] + 1)  }
-
-    tmp = @headerWordCount.sort_by { |key,value| value}
-    @headerWordCount = tmp.reverse
-  end
-
 
   def getSeoKeywordAnalyzeHtmlOutput
     generateHtmlHeader
