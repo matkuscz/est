@@ -14,7 +14,7 @@ require 'rubygems'
 require 'nokogiri'
 require 'open-uri'
 require 'awesome_print'
-#require 'analyzaKlicovychSlov'
+#require 'analyzaKlicovychSlovvv'
 require 'builder'
 
 #moje soubory
