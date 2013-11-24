@@ -1,3 +1,4 @@
+# encoding: utf-8
 # eSeoKeywordAnalyze.rb.rb-a0001 partOf eSeoTool.rb
 =begin
   Musí projet všechny slova na stránce
@@ -8,19 +9,26 @@ require 'builder'
 class ESeoKeywordAnalyze
 
 
-  def initialize linkTexts headersTexts
+  def initialize linkTexts
     @headerWordCount = Hash::new(0)	  
     @link_word_count = Hash::new(0)
     @html = ""
     getKeywordCount linkTexts
-    getHeadersCount headersTexts
+    #getHeadersCount headersTexts
   end
 
   def getKeywordCount linkTexts
     linkTexts.each { |linkText| @link_word_count.store(linkText, @link_word_count[linkText] + 1) }
 
+
+
     tmp = @link_word_count.sort_by { |key,value| value }
     @link_word_count = tmp.reverse
+
+
+
+    @link_word_count.each { |link| link[0] = link[0].gsub(/[„,“,"]/,'*')}
+
   end
 
   def getLinkWordCount
@@ -36,10 +44,26 @@ class ESeoKeywordAnalyze
 
 
   def getSeoKeywordAnalyzeHtmlOutput
+    generateHtmlKeywordCountChart
     generateHtmlHeader
     generateHtmlBody
     generateHtmlKeywordCount
     generateHtmlFooter
+  end
+
+  def generateHtmlKeywordCountChart
+
+    #['Mushrooms', 3],
+
+    @graphDataArray = " "
+
+    @link_word_count.each { |link_word|
+      link_word[0].gsub!(/[<br \/>,\n]/, '_')
+      @graphDataArray = "#{@graphDataArray}['#{link_word[0]}',#{link_word[1].to_s}],"
+
+    }
+
+    puts "Graph Data Array : \n" + @graphDataArray.to_s
   end
 
   def getSeoKeywordAnalyzeHtmlOutputToFile
@@ -52,14 +76,53 @@ class ESeoKeywordAnalyze
       <head>
       <meta charset=\"utf-8\" />
       <title>eWorkers SEO Analytics</title>
-      <link rel=\"stylesheet\" href=\"analytics.css\" type=\"text/css\" />
+      <link rel=\"stylesheet\" href=\"analyticszzzz.css\" type=\"text/css\" />
+
+
+    <script type=\"text/javascript\" src=\"https://www.google.com/jsapi\"></script>
+    <script type=\"text/javascript\">
+      // Load the Visualization API and the piechart package.
+      google.load('visualization', '1.0', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+
+
+
+        data.addRows([
+        " + @graphDataArray +
+        "
+        ]);
+
+        // Set chart options
+        var options = {'title':'How Much Pizza I Ate Last Night',
+                       'width':400,
+                       'height':300};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+
+
+
       </head>
     "
   end
 
   def generateHtmlBody
     @html += "<body id=\"seoAnalytics\">"
-    @html += "<h1>eWorkers SEO Tools</h1><h2>Klicova slova v odkazech vcetne cetnosti</h2>"
+    @html += "<h1>eWorkers SEO Tools</h1><h2>Klicova slova v odkazech vcetne cetnosti</h2><!--Div that will hold the pie chart-->
+    <div id=\"chart_div\"></div>
+"
   end
 
   def generateHtmlKeywordCount

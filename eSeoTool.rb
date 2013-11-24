@@ -1,3 +1,4 @@
+# encoding: utf-8
 # eSeoTool.rb-a0001
 =begin
   - SEO Analýza
@@ -23,8 +24,19 @@ require './eSeoKeywordAnalyze'
 
 url = "http://localhost/seoTest/machacek.htm"
 
-stranka = Page.new("http://www.golfaky.cz/callaway-golfove-micky/161-callaway-mix-a-100ks.html")
+stranka = Page.new("http://www.kscm.cz/")
 analyza = ESeoKeywordAnalyze.new(stranka.getLinksText)
 puts analyza.getSeoKeywordAnalyzeHtmlOutput
 analyza.getSeoKeywordAnalyzeHtmlOutputToFile
+
+puts __ENCODING__
+puts '--'
+str = 'Příliš žluťoučký kůň'
+puts str.encoding.name
+puts '--'
+asc = str.encode('ISO-8859-2')
+puts asc.encoding.name
+puts asc
+puts '--'
+
 

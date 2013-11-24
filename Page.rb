@@ -2,12 +2,42 @@
 =begin
 
 =end
+
+require 'open-uri'
 class Page
   attr_reader :linkWordCount
 
   def initialize url
     begin
-      @html = Nokogiri::HTML(open(url))
+
+      open("temp.html", "wb") do |file|
+        open(url) do |uri|
+          file.write(uri.read)
+        end
+        file.close
+      end
+
+      fileToEscape = File.open("temp.html", "rb")
+      contents = fileToEscape.read
+      contents.gsub!(/<br \/>/, '_')
+      contents.gsub!(/\n/, ' ')
+      contents.gsub!(/\r/, ' ')
+
+      open("tempe.html", "wb") do |filee|
+        filee.write(contents)
+        filee.close
+      end
+
+
+
+
+
+      @html = Nokogiri::HTML(open("tempe.html"))
+
+      puts "AAAA" + @html.to_s
+
+      @html.css('body')
+
     rescue Errno::ECONNREFUSED => chyba_spojeni
       puts "Nastala chyba: #{chyba_spojeni}"
       raise
@@ -43,8 +73,13 @@ class Page
   def generateLinks
     puts "generateLinks"
     @html.css('a').each { |a| link = a.text
-    link.to_s
+
+
+
+
     link.strip!
+
+    #link.gsub!(/\<br \/\>/,' ')
     @linksText.push(link) unless link == ""
     }
   end
