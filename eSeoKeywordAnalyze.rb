@@ -5,6 +5,7 @@
 =end
 
 require 'builder'
+require 'page_rankr'
 
 class ESeoKeywordAnalyze
 
@@ -43,12 +44,20 @@ class ESeoKeywordAnalyze
   end
 
 
-  def getSeoKeywordAnalyzeHtmlOutput address
+  def getSeoKeywordAnalyzeHtmlOutput address, domain
     generateHtmlKeywordCountChart
+    generateHtmlDomainStats domain
     generateHtmlHeader
     generateHtmlBody address
     generateHtmlKeywordCount
     generateHtmlFooter
+  end
+
+  def generateHtmlDomainStats(domain)
+    backlinks = PageRankr.backlinks(domain)
+
+    puts "------------------"
+    backlinks.each { |a,b| puts "#{a.to_s}: #{b.to_s}" }
   end
 
   def generateHtmlKeywordCountChart
@@ -104,7 +113,7 @@ class ESeoKeywordAnalyze
         ]);
 
         // Set chart options
-        var options = {'title':'How Much Pizza I Ate Last Night',
+        var options = {'title':'Počet slov v odkazech',
                        'width':400,
                        'height':300};
 

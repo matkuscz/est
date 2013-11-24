@@ -6,6 +6,7 @@
 require 'open-uri'
 class Page
   attr_reader :linkWordCount
+  attr_reader :webAddr
 
   def initialize url
     begin

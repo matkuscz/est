@@ -20,16 +20,23 @@ require 'builder'
 
 #moje soubory
 require './Page'
-require './eSeoKeywordAnalyze'
+#require './eSeoKeywordAnalyze'
+require './app/analyze/Analyzator'
 
-url = "http://localhost/seoTest/machacek.htm"
+domain = "http://golfaky.cz/"
+address = "http://thoughtcatalog.com/"
 
-address = "http://www.independent.co.uk/"
+domain = address
 
 stranka = Page.new(address)
-analyza = ESeoKeywordAnalyze.new(stranka.getLinksText)
-puts analyza.getSeoKeywordAnalyzeHtmlOutput address
-analyza.getSeoKeywordAnalyzeHtmlOutputToFile
+
+benal = Analyzator.new(stranka)
+
+
+
+#analyza = ESeoKeywordAnalyze.new(stranka.getLinksText)
+#puts analyza.getSeoKeywordAnalyzeHtmlOutput address, domain
+#analyza.getSeoKeywordAnalyzeHtmlOutputToFile
 
 puts __ENCODING__
 puts '--'
