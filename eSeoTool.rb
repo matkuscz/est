@@ -24,9 +24,11 @@ require './eSeoKeywordAnalyze'
 
 url = "http://localhost/seoTest/machacek.htm"
 
-stranka = Page.new("http://www.kscm.cz/")
+address = "http://www.independent.co.uk/"
+
+stranka = Page.new(address)
 analyza = ESeoKeywordAnalyze.new(stranka.getLinksText)
-puts analyza.getSeoKeywordAnalyzeHtmlOutput
+puts analyza.getSeoKeywordAnalyzeHtmlOutput address
 analyza.getSeoKeywordAnalyzeHtmlOutputToFile
 
 puts __ENCODING__

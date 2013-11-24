@@ -10,6 +10,8 @@ class Page
   def initialize url
     begin
 
+      @webAddr = url
+
       open("temp.html", "wb") do |file|
         open(url) do |uri|
           file.write(uri.read)

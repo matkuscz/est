@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" name="Default" comment="test repa">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/brError.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/graf.html" />
+    <list default="true" id="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generatedHtml/LinksWordsCountGenerated.html" afterPath="$PROJECT_DIR$/generatedHtml/LinksWordsCountGenerated.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Page.rb" afterPath="$PROJECT_DIR$/Page.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eSeoKeywordAnalyze.rb" afterPath="$PROJECT_DIR$/eSeoKeywordAnalyze.rb" />
@@ -12,17 +10,17 @@
     </list>
     <ignored path="eSeoTool.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/eSeoTool.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1383340555904" ignored="false" />
+    <file path="/eSeoTool.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1385261782171" ignored="false" />
     <file path="/analyzaKlicovychSlov" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1382262648085" ignored="false" />
     <file path="/page.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1382267646849" ignored="false" />
     <file path="/temp.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1382828910774" ignored="false" />
-    <file path="/Page.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1385260634081" ignored="false" />
+    <file path="/Page.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1385261659984" ignored="false" />
     <file path="/machacek.htm" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1382809636691" ignored="false" />
     <file path="/analyzaKlicovychSlov.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1382820050920" ignored="false" />
     <file path="/LinksWordsCount.html" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1382825853199" ignored="false" />
     <file path="/sSeoKeywordAnalyze.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1382829457978" ignored="false" />
-    <file path="/eSeoKeywordAnalyze.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1385259547852" ignored="false" />
-    <file path="/Dummy.txt" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1385255972747" ignored="false" />
+    <file path="/eSeoKeywordAnalyze.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1385262047782" ignored="false" />
+    <file path="/Dummy.txt" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1385260798913" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,28 +40,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="eSeoTool.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="eSeoTool.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eSeoTool.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="39" selection-start="518" selection-end="518" vertical-scroll-proportion="0.37188613">
+            <state line="30" column="35" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Page.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Page.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Page.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="51" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom_require.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/Ruby193/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="0" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.0">
+            <state line="108" column="65" selection-start="1762" selection-end="1762" vertical-scroll-proportion="0.33214286">
               <folding />
             </state>
           </provider>
@@ -72,7 +61,7 @@
       <file leaf-file-name="eSeoKeywordAnalyze.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eSeoKeywordAnalyze.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="88" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.0">
+            <state line="60" column="56" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -124,10 +113,10 @@
         <option value="$PROJECT_DIR$/sSeoKeywordAnalyze.rb" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/templates/graf.html" />
-        <option value="$PROJECT_DIR$/eSeoKeywordAnalyze.rb" />
         <option value="$PROJECT_DIR$/tmp/brError.html" />
         <option value="$PROJECT_DIR$/Page.rb" />
         <option value="$PROJECT_DIR$/eSeoTool.rb" />
+        <option value="$PROJECT_DIR$/eSeoKeywordAnalyze.rb" />
       </list>
     </option>
   </component>
@@ -403,7 +392,11 @@
       <created>1383340594995</created>
       <updated>1383340594995</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="pridat graf">
+      <created>1385260801112</created>
+      <updated>1385260801112</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -430,21 +423,21 @@
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32821077" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930845" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.6454446" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1456777" sideWeight="0.6454446" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1456777" sideWeight="0.64466447" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39823982" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35455543" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35533553" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -492,7 +485,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="test repa" />
+    <option name="LAST_COMMIT_MESSAGE" value="pridat graf" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -507,6 +500,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="test repa" />
+    <MESSAGE value="pridat graf" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -581,23 +575,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Ruby193/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/g.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.019305">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eSeoKeywordAnalyze.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="88" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -609,16 +589,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Page.rb">
+    <entry file="file://$PROJECT_DIR$/eSeoTool.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="51" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
+        <state line="30" column="35" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eSeoTool.rb">
+    <entry file="file://$PROJECT_DIR$/eSeoKeywordAnalyze.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="39" selection-start="518" selection-end="518" vertical-scroll-proportion="0.37188613">
+        <state line="60" column="56" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby193/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.33392859">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="65" selection-start="1762" selection-end="1762" vertical-scroll-proportion="0.33214286">
           <folding />
         </state>
       </provider>

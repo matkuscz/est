@@ -43,10 +43,10 @@ class ESeoKeywordAnalyze
   end
 
 
-  def getSeoKeywordAnalyzeHtmlOutput
+  def getSeoKeywordAnalyzeHtmlOutput address
     generateHtmlKeywordCountChart
     generateHtmlHeader
-    generateHtmlBody
+    generateHtmlBody address
     generateHtmlKeywordCount
     generateHtmlFooter
   end
@@ -57,9 +57,11 @@ class ESeoKeywordAnalyze
 
     @graphDataArray = " "
 
-    @link_word_count.each { |link_word|
+    top10 = @link_word_count.first(10)
+
+    top10.each { |link_word|
       link_word[0].gsub!(/[<br \/>,\n]/, '_')
-      @graphDataArray = "#{@graphDataArray}['#{link_word[0]}',#{link_word[1].to_s}],"
+      @graphDataArray = "#{@graphDataArray}['#{link_word[0].to_s.gsub(/'/,'>')}',#{link_word[1].to_s}],"
 
     }
 
@@ -118,10 +120,10 @@ class ESeoKeywordAnalyze
     "
   end
 
-  def generateHtmlBody
+  def generateHtmlBody address
     @html += "<body id=\"seoAnalytics\">"
     @html += "<h1>eWorkers SEO Tools</h1><h2>Klicova slova v odkazech vcetne cetnosti</h2><!--Div that will hold the pie chart-->
-    <div id=\"chart_div\"></div>
+    #{address}<div id=\"chart_div\"></div>
 "
   end
 
