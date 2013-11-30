@@ -17,6 +17,7 @@ require 'open-uri'
 require 'awesome_print'
 #require 'analyzaKlicovychSlovvv'
 require 'builder'
+require 'xmlrpc/client'
 
 #moje soubory
 require './Page'
@@ -24,7 +25,7 @@ require './Page'
 require './app/analyze/Analyzator'
 
 domain = "http://golfaky.cz/"
-address = "http://thoughtcatalog.com/"
+address = "http://www.balls-shop.cz"
 
 domain = address
 
@@ -34,18 +35,20 @@ benal = Analyzator.new(stranka)
 
 
 
+
+
 #analyza = ESeoKeywordAnalyze.new(stranka.getLinksText)
 #puts analyza.getSeoKeywordAnalyzeHtmlOutput address, domain
 #analyza.getSeoKeywordAnalyzeHtmlOutputToFile
 
-puts __ENCODING__
-puts '--'
-str = 'Příliš žluťoučký kůň'
-puts str.encoding.name
-puts '--'
-asc = str.encode('ISO-8859-2')
-puts asc.encoding.name
-puts asc
-puts '--'
+#puts __ENCODING__
+#puts '--'
+#str = 'Příliš žluťoučký kůň'
+#puts str.encoding.name
+#puts '--'
+#asc = str.encode('ISO-8859-2')
+#puts asc.encoding.name
+#puts asc
+#puts '--'
 
 

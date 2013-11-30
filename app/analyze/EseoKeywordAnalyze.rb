@@ -1,5 +1,5 @@
 # encoding: utf-8
-# eSeoKeywordAnalyze.rb.rb-a0001 partOf eSeoTool.rb
+# EseoKeywordAnalyze.rb.rb-a0001 partOf eSeoTool.rb
 =begin
   Musí projet všechny slova na stránce
 =end
@@ -7,7 +7,7 @@
 require 'builder'
 require 'page_rankr'
 
-class ESeoKeywordAnalyze
+class EseoKeywordAnalyze
 
 
   def initialize linkTexts
@@ -15,6 +15,9 @@ class ESeoKeywordAnalyze
     @link_word_count = Hash::new(0)
     @html = ""
     getKeywordCount linkTexts
+    prepareGraphDataArray
+
+
     #getHeadersCount headersTexts
   end
 
@@ -44,23 +47,23 @@ class ESeoKeywordAnalyze
   end
 
 
-  def getSeoKeywordAnalyzeHtmlOutput address, domain
-    generateHtmlKeywordCountChart
-    generateHtmlDomainStats domain
-    generateHtmlHeader
-    generateHtmlBody address
-    generateHtmlKeywordCount
-    generateHtmlFooter
+  def getSeoKeywordAnalyzeHtmlOutput
+    prepareGraphDataArray
+
+    generateKeywordGraf
+
+
+
   end
 
   def generateHtmlDomainStats(domain)
-    backlinks = PageRankr.backlinks(domain)
+    #backlinks = PageRankr.backlinks(domain)
 
-    puts "------------------"
-    backlinks.each { |a,b| puts "#{a.to_s}: #{b.to_s}" }
+    #puts "------------------"
+    #backlinks.each { |a,b| puts "#{a.to_s}: #{b.to_s}" }
   end
 
-  def generateHtmlKeywordCountChart
+  def prepareGraphDataArray
 
     #['Mushrooms', 3],
 
@@ -78,19 +81,11 @@ class ESeoKeywordAnalyze
   end
 
   def getSeoKeywordAnalyzeHtmlOutputToFile
-    File.open("./generatedHtml/LinksWordsCountGenerated.html", "w") { |file| file.write(@html) }
+    #File.open("./generatedHtml/LinksWordsCountGenerated.html", "w") { |file| file.write(@html) }
   end
 
-  def generateHtmlHeader
-    @html += "<!DOCTYPE html>
-      <html lang=\"en\">
-      <head>
-      <meta charset=\"utf-8\" />
-      <title>eWorkers SEO Analytics</title>
-      <link rel=\"stylesheet\" href=\"analyticszzzz.css\" type=\"text/css\" />
-
-
-    <script type=\"text/javascript\" src=\"https://www.google.com/jsapi\"></script>
+  def generateKeywordGraf
+    return "
     <script type=\"text/javascript\">
       // Load the Visualization API and the piechart package.
       google.load('visualization', '1.0', {'packages':['corechart']});
@@ -104,8 +99,6 @@ class ESeoKeywordAnalyze
         var data = new google.visualization.DataTable();
         data.addColumn('string', 'Topping');
         data.addColumn('number', 'Slices');
-
-
 
         data.addRows([
         " + @graphDataArray +
@@ -122,18 +115,14 @@ class ESeoKeywordAnalyze
         chart.draw(data, options);
       }
     </script>
-
-
-
-      </head>
     "
   end
 
   def generateHtmlBody address
-    @html += "<body id=\"seoAnalytics\">"
-    @html += "<h1>eWorkers SEO Tools</h1><h2>Klicova slova v odkazech vcetne cetnosti</h2><!--Div that will hold the pie chart-->
-    #{address}<div id=\"chart_div\"></div>
-"
+#    @html += "<body id=\"seoAnalytics\">"
+#    @html += "<h1>eWorkers SEO Tools</h1><h2>Klicova slova v odkazech vcetne cetnosti</h2><!--Div that will hold the pie chart-->
+#    #{address}<div id=\"chart_div\"></div>
+#"
   end
 
   def generateHtmlKeywordCount
@@ -157,7 +146,7 @@ class ESeoKeywordAnalyze
   end
 
   def generateHtmlFooter
-    @html += "</body></html>"
+    #@html += "</body></html>"
   end
 
 end
