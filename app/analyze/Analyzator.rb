@@ -7,6 +7,7 @@ require './app/analyze/AnalyzeRanks'
 require './app/analyze/EseoKeywordAnalyze'
 require './app/analyze/AnalyzeBacklinks'
 require './app/analyze/AnalyzeIndexes'
+require './app/analyze/social/AnalyzeSocial'
 
 
 class Analyzator
@@ -16,8 +17,10 @@ class Analyzator
     @ranks = AnalyzeRanks.new(page.webAddr)
     @backlinks = AnalyzeBacklinks.new(page.webAddr)
     @indexes = AnalyzeIndexes.new(page.webAddr)
-    #@backlinks = AnalyzeBacklinks.new(page.webAddr)
     @keywordsInLinks = EseoKeywordAnalyze.new(page.getLinksText)
+    @social = AnalyzeSocial.new(page.webAddr)
+
+    #@backlinks = AnalyzeBacklinks.new(page.webAddr)
     #puts "Alexa US: " + ranks.ranking[:alexa_us].to_s
     #puts "Alexa Country: " + ranks.ranking[:alexa_global].to_s
     #puts "Google: " + ranks.ranking[:google].to_s
@@ -50,6 +53,7 @@ class Analyzator
         htmlBodyStart +
         htmlIntro.to_s +
         htmlRanks +
+        htmlSocial +
         htmlBacklinks +
         htmlIndexes +
         htmlKeywordsInLinks +
@@ -63,6 +67,10 @@ class Analyzator
     #+ htmlKeywordsInLinks.to_s
     #+ htmlBodyEnd.to_s
     File.open("./generatedHtml/LinksWordsCountGeneratedBeta.html", "w") { |file| file.write(htmls) }
+  end
+
+  def htmlSocial
+    @social.getHtml
   end
 
   def htmlIndexes
