@@ -25,16 +25,10 @@ class AnalyzeSocial
     puts "base-url:" + base_url
     resp = Net::HTTP.get_response('api.facebook.com', base_url)
     data = resp.body
-
-    puts data
-
-
-
+    puts "data:" + data
 
     result = JSON.parse(data)
-
     result = result[0]
-
 
     # if the hash has 'Error' as a key, we raise an error
     #if result.has_key? 'Error'
@@ -65,5 +59,4 @@ class AnalyzeSocial
   def getHtml
     return @html
   end
-
 end

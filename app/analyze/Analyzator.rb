@@ -8,17 +8,27 @@ require './app/analyze/EseoKeywordAnalyze'
 require './app/analyze/AnalyzeBacklinks'
 require './app/analyze/AnalyzeIndexes'
 require './app/analyze/social/AnalyzeSocial'
+require './app/analyze/AnalyzeHTMLtoCodeRatio'
 
 
 class Analyzator
 
   def initialize page
+    @page = page
     @addr = page.webAddr
+    puts '*** Page Analyze Started'
     @ranks = AnalyzeRanks.new(page.webAddr)
+    puts 'Ranks analyzed'
     @backlinks = AnalyzeBacklinks.new(page.webAddr)
+    puts 'Backlins analyzed'
     @indexes = AnalyzeIndexes.new(page.webAddr)
+    puts 'Indexes generated'
     @keywordsInLinks = EseoKeywordAnalyze.new(page.getLinksText)
+    puts 'Keywords in links generated'
     @social = AnalyzeSocial.new(page.webAddr)
+    puts 'Social statistics generated'
+    @htmlToCodeRatio = AnalyzeHTMLtoCodeRatio.new(page.getHtml().to_s)
+    puts 'HTML to code ratio generated'
 
     #@backlinks = AnalyzeBacklinks.new(page.webAddr)
     #puts "Alexa US: " + ranks.ranking[:alexa_us].to_s
@@ -41,6 +51,8 @@ class Analyzator
     generateHTMLStatsPage
     keywords = ""
 
+    puts '*** Page Analyze Finished'
+
 
 
   end
@@ -52,10 +64,12 @@ class Analyzator
         htmlHeaderEnd +
         htmlBodyStart +
         htmlIntro.to_s +
+        htmlPageLoadingTime + 
         htmlRanks +
         htmlSocial +
         htmlBacklinks +
         htmlIndexes +
+        htmlHTMLtoCodeRatio +
         htmlKeywordsInLinks +
         htmlBodyEnd
     #@htmls = " " + @htmlHeader.to_s
@@ -67,6 +81,17 @@ class Analyzator
     #+ htmlKeywordsInLinks.to_s
     #+ htmlBodyEnd.to_s
     File.open("./generatedHtml/LinksWordsCountGeneratedBeta.html", "w") { |file| file.write(htmls) }
+  end
+
+  def htmlPageLoadingTime
+    "<div id=\"pageLoadingTime\">
+              <h3>Page loading time:</h3>
+              <div id=\"pageLoadingTimeValue\"><p>#{@page.loadingTime.to_s} sec</p></div>
+            </div>"
+  end
+
+  def htmlHTMLtoCodeRatio
+    @htmlToCodeRatio.getHtml
   end
 
   def htmlSocial

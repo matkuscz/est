@@ -6,6 +6,7 @@
 require 'open-uri'
 class Page
   attr_reader :linkWordCount
+  attr_reader :loadingTime
   attr_reader :webAddr
 
   def initialize url
@@ -13,12 +14,16 @@ class Page
 
       @webAddr = url
 
+      startOfPageDownload = Time.now
       open("temp.html", "wb") do |file|
         open(url) do |uri|
           file.write(uri.read)
         end
         file.close
       end
+      endOfPageDownload = Time.now
+
+      @loadingTime = endOfPageDownload - startOfPageDownload
 
       fileToEscape = File.open("temp.html", "rb")
       contents = fileToEscape.read
@@ -36,6 +41,7 @@ class Page
 
 
       @html = Nokogiri::HTML(open("tempe.html"))
+
 
       puts "AAAA" + @html.to_s
 
@@ -56,6 +62,8 @@ class Page
 
     @headers = Array.new
     generateHeaders
+
+    puts 'Page generated'
 
   end
 

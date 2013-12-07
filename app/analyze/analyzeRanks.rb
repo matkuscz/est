@@ -9,8 +9,18 @@ class AnalyzeRanks
   attr_reader :ranking, :html
 
   def initialize webAddr
-    @ranking = PageRankr.ranks(webAddr)
+    puts '-Rank analyze started'
+    #@ranking = PageRankr.ranks(webAddr)
+    @ranking = Hash.new
+    @ranking[:alexa_us] = 0
+    @ranking[:alexa_global] = 0
+    @ranking[:alexa_country] = 0
+    @ranking[:google] = 0
+    @ranking[:moz_rank] = 0
+    @ranking[:page_authority] = 0
+    puts '--Rankr ranks get'
     @ranking[:srank] = getSrank(webAddr)
+    puts '--SRank get'
     generateHTML
   end
 
