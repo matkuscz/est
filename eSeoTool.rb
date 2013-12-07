@@ -25,7 +25,7 @@ require './Page'
 require './app/analyze/Analyzator'
 
 domain = "http://golfaky.cz/"
-address = "http://soom.cz"
+address = "http://golfaky.cz"
 
 domain = address
 

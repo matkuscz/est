@@ -5,24 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generatedHtml/LinksWordsCountGeneratedBeta.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/analyze/AnalyzeFeeds.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/analyze/AnalyzeHTMLValidity.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/analyze/Analyzator.rb" afterPath="$PROJECT_DIR$/app/analyze/Analyzator.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generatedHtml/LinksWordsCountGeneratedBeta.html" afterPath="$PROJECT_DIR$/generatedHtml/LinksWordsCountGeneratedBeta.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Page.rb" afterPath="$PROJECT_DIR$/Page.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/eSeoTool.iml" afterPath="$PROJECT_DIR$/.idea/eSeoTool.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eSeoTool.rb" afterPath="$PROJECT_DIR$/eSeoTool.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="eSeoTool.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/eSeoTool.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1386270962387" ignored="false" />
+    <file path="/eSeoTool.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1386448404893" ignored="false" />
     <file path="/analyzaKlicovychSlov" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1382262648085" ignored="false" />
     <file path="/page.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1382267646849" ignored="false" />
     <file path="/temp.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1385326060679" ignored="false" />
-    <file path="/Page.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1386270453898" ignored="false" />
+    <file path="/Page.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1386445064665" ignored="false" />
     <file path="/machacek.htm" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1382809636691" ignored="false" />
     <file path="/analyzaKlicovychSlov.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1382820050920" ignored="false" />
     <file path="/LinksWordsCount.html" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1382825853199" ignored="false" />
     <file path="/sSeoKeywordAnalyze.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1382829457978" ignored="false" />
     <file path="/eSeoKeywordAnalyze.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1385326426412" ignored="false" />
-    <file path="/Dummy.txt" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1386439011799" ignored="false" />
+    <file path="/Dummy.txt" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1386439102385" ignored="false" />
     <file path="/a.dummy" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1385308176362" ignored="false" />
-    <file path="/Analyzator.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1386270726115" ignored="false" />
+    <file path="/Analyzator.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1386448232632" ignored="false" />
     <file path="/analyzeRanks.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1385327636770" ignored="false" />
     <file path="/AnalyzeRanks.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1386269474929" ignored="false" />
     <file path="/fragment.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1385320072185" ignored="false" />
@@ -30,6 +36,9 @@
     <file path="/AnalyzeIndexes.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1385500030352" ignored="false" />
     <file path="/AnalyzeSocial.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1385856534841" ignored="false" />
     <file path="/AnalyzeHTMLtoCodeRatio.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1386269879033" ignored="false" />
+    <file path="/AnalyzeW3CValidity.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1386443477337" ignored="false" />
+    <file path="/AnalyzeHTMLValidity.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1386440427165" ignored="false" />
+    <file path="/AnalyzeFeeds.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1386448270243" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +61,7 @@
       <file leaf-file-name="eSeoTool.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/eSeoTool.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="44" selection-start="490" selection-end="490" vertical-scroll-proportion="0.325">
+            <state line="27" column="25" selection-start="547" selection-end="547" vertical-scroll-proportion="0.6535714">
               <folding />
             </state>
           </provider>
@@ -61,7 +70,16 @@
       <file leaf-file-name="Analyzator.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/analyze/Analyzator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="26" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
+            <state line="95" column="18" selection-start="2796" selection-end="2796" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnalyzeFeeds.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/analyze/AnalyzeFeeds.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="43" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -70,7 +88,7 @@
       <file leaf-file-name="AnalyzeRanks.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/analyze/AnalyzeRanks.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="23" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
+            <state line="50" column="0" selection-start="1046" selection-end="1685" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -79,7 +97,7 @@
       <file leaf-file-name="Page.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Page.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="25" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+            <state line="85" column="16" selection-start="1411" selection-end="1411" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -103,10 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/tmp/brError.html" />
-        <option value="$PROJECT_DIR$/Analyzator.rb" />
-        <option value="$PROJECT_DIR$/app/analyze/analyzeRanks.rb" />
-        <option value="$PROJECT_DIR$/app/analyze/analyzator.rb" />
         <option value="$PROJECT_DIR$/eSeoKeywordAnalyze.rb" />
         <option value="$PROJECT_DIR$/EseoKeywordAnalyze.rb" />
         <option value="$PROJECT_DIR$/app/analyze/EseoKeywordAnalyze.rb" />
@@ -116,8 +130,12 @@
         <option value="$PROJECT_DIR$/app/analyze/social/AnalyzeSocial.rb" />
         <option value="$PROJECT_DIR$/app/analyze/AnalyzeRanks.rb" />
         <option value="$PROJECT_DIR$/app/analyze/AnalyzeHTMLtoCodeRatio.rb" />
-        <option value="$PROJECT_DIR$/app/analyze/Analyzator.rb" />
+        <option value="$PROJECT_DIR$/app/analyze/AnalyzeW3CValidity.rb" />
+        <option value="$PROJECT_DIR$/app/analyze/AnalyzeHTMLValidity.rb" />
         <option value="$PROJECT_DIR$/Page.rb" />
+        <option value="$PROJECT_DIR$/app/analyze/analyze_feeds.rb" />
+        <option value="$PROJECT_DIR$/app/analyze/Analyzator.rb" />
+        <option value="$PROJECT_DIR$/app/analyze/AnalyzeFeeds.rb" />
         <option value="$PROJECT_DIR$/eSeoTool.rb" />
       </list>
     </option>
@@ -441,7 +459,11 @@
       <created>1386439014995</created>
       <updated>1386439014995</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="pridano vystupni HTML do repozitare">
+      <created>1386439104701</created>
+      <updated>1386439104701</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -471,10 +493,11 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32821077" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930845" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278328" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.6454446" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15154749" sideWeight="0.64466447" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39736554" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15154749" sideWeight="0.64466447" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39713973" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35533553" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -482,7 +505,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32821077" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -530,7 +552,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="pridano HTML to code ratio a Page loading time" />
+    <option name="LAST_COMMIT_MESSAGE" value="pridano vystupni HTML do repozitare" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -551,57 +573,36 @@
     <MESSAGE value="pridan SRank" />
     <MESSAGE value="pridana Socialni Analyza - zatim jen FB" />
     <MESSAGE value="pridano HTML to code ratio a Page loading time" />
+    <MESSAGE value="pridano vystupni HTML do repozitare" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/app/analyze/EseoKeywordAnalyze.rb</url>
-          <line>22</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/app/analyze/EseoKeywordAnalyze.rb</url>
-          <line>23</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/app/analyze/AnalyzeRanks.rb</url>
           <line>12</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/app/analyze/Analyzator.rb</url>
-          <line>17</line>
-          <option name="timeStamp" value="8" />
+          <url>file://$PROJECT_DIR$/app/analyze/AnalyzeHTMLValidity.rb</url>
+          <line>14</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/analyze/AnalyzeHTMLValidity.rb</url>
+          <line>18</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/analyze/AnalyzeHTMLValidity.rb</url>
+          <line>16</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="12" />
+      <option name="time" value="18" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/analyze/social/AnalyzeSocial.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="85" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/analyze/AnalyzeBacklinks.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="50" selection-start="0" selection-end="690" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/analyze/EseoKeywordAnalyze.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Ruby193/lib/ruby/gems/1.9.1/gems/PageRankr-4.2.0/lib/page_rankr.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="40" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://C:/Ruby193/lib/ruby/gems/1.9.1/gems/PageRankr-4.2.0/lib/page_rankr/trackers.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -634,7 +635,9 @@
     </entry>
     <entry file="file://C:/Ruby193/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.0" />
+        <state line="35" column="0" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/analyze/AnalyzeHTMLtoCodeRatio.rb">
@@ -644,30 +647,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/analyze/AnalyzeRanks.rb">
+    <entry file="file://$PROJECT_DIR$/app/analyze/EseoKeywordAnalyze.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="23" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
+        <state line="23" column="0" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby193/lib/ruby/gems/1.9.1/gems/w3c_validators-1.2/lib/w3c_validators/markup_validator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="8" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/analyze/AnalyzeHTMLValidity.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="26" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Page.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="25" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+        <state line="85" column="16" selection-start="1411" selection-end="1411" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/analyze/AnalyzeRanks.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="0" selection-start="1046" selection-end="1685" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/analyze/Analyzator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="26" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
+        <state line="95" column="18" selection-start="2796" selection-end="2796" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/analyze/AnalyzeFeeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="43" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eSeoTool.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="44" selection-start="490" selection-end="490" vertical-scroll-proportion="0.325">
+        <state line="27" column="25" selection-start="547" selection-end="547" vertical-scroll-proportion="0.6535714">
           <folding />
         </state>
       </provider>

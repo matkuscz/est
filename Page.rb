@@ -20,6 +20,7 @@ class Page
           file.write(uri.read)
         end
         file.close
+        @size = File.size("temp.html")
       end
       endOfPageDownload = Time.now
 
@@ -79,6 +80,10 @@ class Page
 
   def getLinkWordCount
     return @link_word_count
+  end
+
+  def getSize
+    return @size
   end
 
   def generateLinks

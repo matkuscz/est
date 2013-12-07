@@ -9,7 +9,8 @@ require './app/analyze/AnalyzeBacklinks'
 require './app/analyze/AnalyzeIndexes'
 require './app/analyze/social/AnalyzeSocial'
 require './app/analyze/AnalyzeHTMLtoCodeRatio'
-
+require './app/analyze/AnalyzeHTMLValidity'
+require './app/analyze/AnalyzeFeeds'
 
 class Analyzator
 
@@ -27,8 +28,12 @@ class Analyzator
     puts 'Keywords in links generated'
     @social = AnalyzeSocial.new(page.webAddr)
     puts 'Social statistics generated'
+    @htmlValidity = AnalyzeHTMLValidity.new(page.webAddr)
+    puts 'HTML validity generated'
     @htmlToCodeRatio = AnalyzeHTMLtoCodeRatio.new(page.getHtml().to_s)
     puts 'HTML to code ratio generated'
+    @feeds = AnalyzeFeeds.new(page.getHtml.to_s)
+    puts 'Feeds analyze generated'
 
     #@backlinks = AnalyzeBacklinks.new(page.webAddr)
     #puts "Alexa US: " + ranks.ranking[:alexa_us].to_s
@@ -64,11 +69,15 @@ class Analyzator
         htmlHeaderEnd +
         htmlBodyStart +
         htmlIntro.to_s +
-        htmlPageLoadingTime + 
+         
         htmlRanks +
         htmlSocial +
         htmlBacklinks +
         htmlIndexes +
+        htmlFeeds +
+        htmlPageLoadingTime +
+        htmlPageSize +
+        htmlHTMLValidity +
         htmlHTMLtoCodeRatio +
         htmlKeywordsInLinks +
         htmlBodyEnd
@@ -81,6 +90,21 @@ class Analyzator
     #+ htmlKeywordsInLinks.to_s
     #+ htmlBodyEnd.to_s
     File.open("./generatedHtml/LinksWordsCountGeneratedBeta.html", "w") { |file| file.write(htmls) }
+  end
+
+  def htmlFeeds
+    @feeds.getHTML
+  end
+
+  def htmlPageSize
+    "<div id=\"pageSize\">
+              <h3>Page size:</h3>
+              <div id=\"pageSizeValue\"><p>#{@page.getSize().to_s} B</p></div>
+            </div>"
+  end
+
+  def htmlHTMLValidity
+    @htmlValidity.getHTML
   end
 
   def htmlPageLoadingTime
