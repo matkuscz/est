@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/analyze/AnalyzeHTMLtoCodeRatio.rb" />
-      <change type="DELETED" beforePath="C:\eWork\Projekty\est_github\generatedHtml\LinksWordsCountGenerated.html" afterPath="" />
-      <change type="MOVED" beforePath="C:\eWork\Projekty\est_github\app\analyze\analyzeRanks.rb" afterPath="$PROJECT_DIR$/app/analyze/AnalyzeRanks.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/analyze/Analyzator.rb" afterPath="$PROJECT_DIR$/app/analyze/Analyzator.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/analyze/social/AnalyzeSocial.rb" afterPath="$PROJECT_DIR$/app/analyze/social/AnalyzeSocial.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Page.rb" afterPath="$PROJECT_DIR$/Page.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eSeoTool.rb" afterPath="$PROJECT_DIR$/eSeoTool.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generatedHtml/LinksWordsCountGeneratedBeta.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="eSeoTool.iws" />
@@ -26,7 +20,7 @@
     <file path="/LinksWordsCount.html" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1382825853199" ignored="false" />
     <file path="/sSeoKeywordAnalyze.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1382829457978" ignored="false" />
     <file path="/eSeoKeywordAnalyze.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1385326426412" ignored="false" />
-    <file path="/Dummy.txt" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1386437296127" ignored="false" />
+    <file path="/Dummy.txt" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1386439011799" ignored="false" />
     <file path="/a.dummy" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1385308176362" ignored="false" />
     <file path="/Analyzator.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1386270726115" ignored="false" />
     <file path="/analyzeRanks.rb" changelist="4fa5f3e1-d194-4f75-adf7-2d0316bc2e5c" time="1385327636770" ignored="false" />
@@ -58,7 +52,7 @@
       <file leaf-file-name="eSeoTool.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/eSeoTool.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="44" selection-start="490" selection-end="490" vertical-scroll-proportion="0.32384342">
+            <state line="24" column="44" selection-start="490" selection-end="490" vertical-scroll-proportion="0.325">
               <folding />
             </state>
           </provider>
@@ -189,6 +183,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eSeoTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="est_github" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generatedHtml" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -429,7 +437,11 @@
       <created>1385856322956</created>
       <updated>1385856322956</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="pridano HTML to code ratio a Page loading time">
+      <created>1386439014995</created>
+      <updated>1386439014995</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -456,21 +468,21 @@
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32821077" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930845" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.6454446" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15154749" sideWeight="0.6454446" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15154749" sideWeight="0.64466447" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39736554" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35455543" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35533553" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32821077" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -518,7 +530,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="pridana Socialni Analyza - zatim jen FB" />
+    <option name="LAST_COMMIT_MESSAGE" value="pridano HTML to code ratio a Page loading time" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -538,6 +550,7 @@
     <MESSAGE value="pridan zaklad pro ranky, pred refaktoringem" />
     <MESSAGE value="pridan SRank" />
     <MESSAGE value="pridana Socialni Analyza - zatim jen FB" />
+    <MESSAGE value="pridano HTML to code ratio a Page loading time" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -626,7 +639,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/analyze/AnalyzeHTMLtoCodeRatio.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="41" selection-start="517" selection-end="517" vertical-scroll-proportion="0.52846974" />
+        <state line="20" column="41" selection-start="517" selection-end="517" vertical-scroll-proportion="0.52846974">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/analyze/AnalyzeRanks.rb">
@@ -652,7 +667,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/eSeoTool.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="44" selection-start="490" selection-end="490" vertical-scroll-proportion="0.32384342">
+        <state line="24" column="44" selection-start="490" selection-end="490" vertical-scroll-proportion="0.325">
           <folding />
         </state>
       </provider>
